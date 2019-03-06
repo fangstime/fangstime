@@ -12,7 +12,7 @@ let dm = new Discord.RichEmbed()
 let helpembed = new Discord.RichEmbed()
     .setColor(`#409cd9`)
     .setAuthor(`Commands & Guides`, bot.user.avatarURL)
-    .addField(`:desktop: General Commands`, `!help - Show a list of commands & guides to your DM.\n!ping - Show the current bot ping/ms.\n!verify/verification - Verify your discord account.\n!botinfo - Shows the information of the bot.\n!serverinfo - Shows the information of the guild.\n!8ball [Question] - A fun command that answer your question.`)
+    .addField(`:desktop: General Commands`, `!help - Show a list of commands & guides to your DM.\n!ping - Show the current bot ping/ms.`)
     .setTimestamp()
     message.author.send(helpembed);
 
